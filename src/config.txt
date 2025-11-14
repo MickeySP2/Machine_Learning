@@ -1,0 +1,3 @@
+Epochs,30
+Learning_rate,4e-3
+Batch_size,64
