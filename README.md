@@ -1,25 +1,21 @@
-Install[README-Template.md](https://github.com/user-attachments/files/23548054/README-Template.md)
-# Project Title
-
-SPAC uge 2 assignments
+# Machine Learning Project - SPAC Week 9
 
 ## Description
 
-Each script is related to one of the 4 assignments for week two.
+Machine learning project using FashionMNIST data for training.
+Epochs, batch size and learning rate can be adjusted in the config file.
+The script will write a .csv file to the data folder with the avg. accuracy and avg. loss for each epoch.
 
 ## Getting Started
 
-### Dependencies
-
-imports os for path handling.
-
 ### Installing
-
-Some scripts assume that the datafolder is "next" to it.
+In terminal use:
+pip install -r requirements.txt
 
 ### Executing program
 
-Open the script in IDE and run
+Run the script from main.py
+Training data is downloaded automatically and a data folder will be created.
 
 ## Help
 None
